@@ -1,0 +1,63 @@
+<svg width="400" height="480" viewBox="0 0 400 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutBg" x1="0" y1="0" x2="400" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#EDE7F6"/>
+      <stop offset="100%" stop-color="#D1C4E9"/>
+    </linearGradient>
+    <linearGradient id="aboutSkin" x1="200" y1="80" x2="200" y2="240" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDDCB5"/>
+      <stop offset="100%" stop-color="#F0C090"/>
+    </linearGradient>
+    <linearGradient id="aboutBlazer" x1="200" y1="230" x2="200" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#7E57C2"/>
+      <stop offset="100%" stop-color="#5E35B1"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="400" height="480" fill="url(#aboutBg)"/>
+
+  <!-- Body -->
+  <ellipse cx="200" cy="510" rx="160" ry="195" fill="url(#aboutBlazer)"/>
+
+  <!-- Shirt -->
+  <path d="M160 300 L200 360 L240 300 Z" fill="#F5F5F5" opacity="0.9"/>
+
+  <!-- Neck -->
+  <rect x="183" y="218" width="34" height="48" rx="17" fill="url(#aboutSkin)"/>
+
+  <!-- Head -->
+  <ellipse cx="200" cy="165" rx="68" ry="78" fill="url(#aboutSkin)"/>
+
+  <!-- Hair -->
+  <ellipse cx="200" cy="108" rx="74" ry="52" fill="#3E2723"/>
+  <path d="M126 135 Q135 88 200 78 Q265 88 274 135 Q265 108 200 103 Q135 108 126 135Z" fill="#2C1B0E"/>
+
+  <!-- Eyes -->
+  <ellipse cx="178" cy="170" rx="7" ry="5" fill="#1A1A2E"/>
+  <ellipse cx="222" cy="170" rx="7" ry="5" fill="#1A1A2E"/>
+  <circle cx="176" cy="168" r="2" fill="white" opacity="0.8"/>
+  <circle cx="220" cy="168" r="2" fill="white" opacity="0.8"/>
+
+  <!-- Eyebrows -->
+  <path d="M165 157 Q178 150 190 157" stroke="#2C1B0E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M210 157 Q222 150 235 157" stroke="#2C1B0E" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Nose -->
+  <path d="M197 182 Q200 192 203 182" stroke="#D4A76A" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Smile -->
+  <path d="M185 200 Q200 213 215 200" stroke="#C77D5A" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Ears -->
+  <ellipse cx="132" cy="170" rx="9" ry="14" fill="url(#aboutSkin)"/>
+  <ellipse cx="268" cy="170" rx="9" ry="14" fill="url(#aboutSkin)"/>
+
+  <!-- Blazer details -->
+  <path d="M145 300 L175 340 L165 370 L125 335 Z" fill="#6A3FB5" opacity="0.6"/>
+  <path d="M255 300 L225 340 L235 370 L275 335 Z" fill="#6A3FB5" opacity="0.6"/>
+
+  <!-- Label -->
+  <rect x="100" y="450" width="200" height="24" rx="12" fill="rgba(0,0,0,0.15)"/>
+  <text x="200" y="466" text-anchor="middle" fill="white" font-family="Poppins, sans-serif" font-size="11" font-weight="500">Replace with your photo</text>
+</svg>

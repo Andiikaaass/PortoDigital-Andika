@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andika Pratama — UI/UX Designer Portfolio</title>
+    <meta name="description"
+        content="Portfolio profesional Andika Pratama, seorang UI/UX Designer yang berfokus pada desain antarmuka yang menarik, intuitif, dan berorientasi pada pengalaman pengguna.">
+    <meta name="keywords" content="UI/UX Designer, Portfolio, Web Design, App Design, Graphic Design, Andika Pratama">
+    <meta name="author" content="Andika Pratama">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect x='8' y='8' width='24' height='24' rx='6' transform='rotate(45 20 20)' fill='%234361EE'/><circle cx='20' cy='20' r='4' fill='white'/></svg>">
+
+    <!-- Google Fonts — Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome 6 CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#home" class="nav-logo" aria-label="Andika — Home">
+                <svg class="logo-icon" width="36" height="36" viewBox="0 0 40 40" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="6" y="6" width="28" height="28" rx="7" transform="rotate(45 20 20)" fill="#4361EE" />
+                    <rect x="11" y="11" width="18" height="18" rx="4" transform="rotate(45 20 20)" fill="#F72585" />
+                    <circle cx="20" cy="20" r="4" fill="white" />
+                </svg>
+                <span class="logo-text">Andika<span class="logo-dot">.</span></span>
+            </a>
+
+            <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                    <li><a href="#about" class="nav-link">About Me</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-actions">
+                <a href="#contact" class="btn-lets-talk">Let's Talk</a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <!-- Left Column — Text -->
+                <div class="hero-text reveal-up">
+                    <span class="hero-greeting">Hi, I'm</span>
+                    <!-- ✏️ EDIT YOUR NAME HERE -->
+                    <h1 class="hero-name">Andika Pratama</h1>
+                    <h2 class="hero-title">UI &amp; UX <span>Designer</span></h2>
+                    <p class="hero-description">
+                        With a passion for clean, intuitive, and effective design, I create digital products
+                        that enhance user engagement. Delivering aesthetic and interactive designs that make
+                        a lasting impact.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                        <a href="#portfolio" class="btn btn-outline">
+                            <i class="fas fa-th-large"></i> View Portfolio
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right Column — Image & Decorations -->
+                <div class="hero-image reveal-scale">
+                    <div class="hero-image-wrapper">
+                        <!-- Decorative circle behind photo -->
+                        <div class="hero-circle" aria-hidden="true"></div>
+
+                        <!-- Profile photo — replace src with your own photo -->
+                        <img src="assets/images/profile-hero.svg" alt="Andika Pratama — UI/UX Designer"
+                            class="hero-photo" width="420" height="500" loading="eager">
+
+                        <!-- Decorative dots pattern -->
+                        <div class="hero-dots" aria-hidden="true"></div>
+
+                        <!-- Decorative diamond shapes -->
+                        <div class="hero-diamond hero-diamond-1" aria-hidden="true"></div>
+                        <div class="hero-diamond hero-diamond-2" aria-hidden="true"></div>
+
+                        <!-- Floating Review Card -->
+                        <div class="hero-review-card">
+                            <div class="review-stars" aria-label="Rating 5 out of 5">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <span class="review-text">20+ Customer Review</span>
+                        </div>
+
+                        <!-- Social Icons -->
+                        <div class="hero-social">
+                            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Background decorative blobs -->
+        <div class="hero-blob hero-blob-1" aria-hidden="true"></div>
+        <div class="hero-blob hero-blob-2" aria-hidden="true"></div>
+    </section>
+
+    <!-- ===== ABOUT ME SECTION ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <!-- Left — Photo -->
+                <div class="about-image reveal-left">
+                    <div class="about-image-wrapper">
+                        <div class="about-shape" aria-hidden="true"></div>
+                        <img src="assets/images/profile-about.svg" alt="Andika Pratama — About Me" class="about-photo"
+                            width="400" height="480" loading="lazy">
+                    </div>
+                </div>
+
+                <!-- Right — Info & Skills -->
+                <div class="about-info reveal-right">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        Passionate UI/UX Designer with a Creative Approach to Crafting
+                        Intuitive and Engaging User Experiences. I'm a vocational school student
+                        majoring in SIJA (Sistem Informatika, Jaringan dan Aplikasi), deeply passionate
+                        about creating beautiful and functional digital experiences. I believe great design
+                        combines aesthetics with usability to create products people love.
+                    </p>
+
+                    <div class="skills">
+                        <div class="skill-item" data-progress="90">
+                            <div class="skill-header">
+                                <span class="skill-name">UI/UX Design</span>
+                                <span class="skill-percent">90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-color-1"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-progress="85">
+                            <div class="skill-header">
+                                <span class="skill-name">Website Design</span>
+                                <span class="skill-percent">85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-color-2"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-progress="80">
+                            <div class="skill-header">
+                                <span class="skill-name">App Design</span>
+                                <span class="skill-percent">80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-color-3"></div>
+                            </div>
+                        </div>
+
+                        <div class="skill-item" data-progress="75">
+                            <div class="skill-header">
+                                <span class="skill-name">Graphic Design</span>
+                                <span class="skill-percent">75%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress skill-color-4"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES SECTION ===== -->
+    <section class="services" id="services">
+        <div class="container">
+            <h2 class="section-title text-center reveal-up">My Design Services</h2>
+            <p class="section-subtitle text-center reveal-up">
+                Crafting visually engaging interfaces that are both intuitive and user-centered.
+                Ensuring a seamless experience.
+            </p>
+
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3 class="service-title">UI/UX Design</h3>
+                    <p class="service-description">
+                        User-centered designs that are visually engaging and functionally seamless.
+                        My approach prioritizes intuitive navigation and delightful interactions.
+                    </p>
+                    <a href="#contact" class="service-link">Read More… <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <h3 class="service-title">Web Design</h3>
+                    <p class="service-description">
+                        Modern, responsive website designs that captivate visitors and drive conversions.
+                        From landing pages to full corporate websites.
+                    </p>
+                    <a href="#contact" class="service-link">Read More… <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-screen-button"></i>
+                    </div>
+                    <h3 class="service-title">App Design</h3>
+                    <p class="service-description">
+                        Beautiful and intuitive mobile app interfaces for iOS and Android.
+                        Focused on user experience and seamless interactions.
+                    </p>
+                    <a href="#contact" class="service-link">Read More… <i class="fas fa-arrow-right"></i></a>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="service-card reveal-up">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3 class="service-title">Graphic Design</h3>
+                    <p class="service-description">
+                        Eye-catching visual assets including logos, illustrations, social media graphics,
+                        and complete brand identity systems.
+                    </p>
+                    <a href="#contact" class="service-link">Read More… <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PORTFOLIO SECTION ===== -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <h2 class="section-title text-center reveal-up">My Portfolio</h2>
+            <p class="section-subtitle text-center reveal-up">
+                Explore a collection of my UI/UX design projects, each crafted to deliver seamless,
+                user-centered experiences.
+            </p>
+
+            <!-- Filter Buttons -->
+            <div class="portfolio-filter reveal-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="uiux">UI/UX</button>
+                <button class="filter-btn" data-filter="website">Website Design</button>
+                <button class="filter-btn" data-filter="app">App Design</button>
+                <button class="filter-btn" data-filter="graphic">Graphic Design</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+
+                <!-- Project 1 -->
+                <div class="portfolio-card reveal-up" data-category="uiux" data-title="FinanceFlow Dashboard"
+                    data-description="A modern admin dashboard design for a fintech application. Features comprehensive data visualization with interactive charts, real-time analytics, clean navigation sidebar, and dark/light mode support. Designed with a focus on clarity and efficiency for financial data management."
+                    data-image="assets/images/portfolio-1.svg">
+                    <div class="portfolio-thumbnail">
+                        <img src="assets/images/portfolio-1.svg" alt="FinanceFlow Dashboard — UI/UX Design Project"
+                            loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view-btn" aria-label="View FinanceFlow Dashboard details">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">UI/UX Design</span>
+                        <h3 class="portfolio-title">FinanceFlow Dashboard</h3>
+                        <p class="portfolio-desc">Modern admin dashboard with data visualization and intuitive
+                            navigation.</p>
+                        <button class="portfolio-link" aria-label="View project details">View Project <i
+                                class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="portfolio-card reveal-up" data-category="website" data-title="TravelEase Landing Page"
+                    data-description="A clean and engaging landing page designed for a travel agency. Features stunning hero imagery, destination showcases, tour packages, customer testimonials, and a seamless booking flow. Optimized for conversions with strategic call-to-action placement."
+                    data-image="assets/images/portfolio-2.svg">
+                    <div class="portfolio-thumbnail">
+                        <img src="assets/images/portfolio-2.svg" alt="TravelEase Landing Page — Website Design Project"
+                            loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view-btn" aria-label="View TravelEase Landing Page details">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Website Design</span>
+                        <h3 class="portfolio-title">TravelEase Landing Page</h3>
+                        <p class="portfolio-desc">Engaging travel agency website with destination showcases and booking
+                            flow.</p>
+                        <button class="portfolio-link" aria-label="View project details">View Project <i
+                                class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="portfolio-card reveal-up" data-category="app" data-title="FitTrack Mobile App"
+                    data-description="A health and fitness tracking application with an intuitive mobile interface. Includes workout plan management, calorie tracking, progress monitoring with detailed statistics, social features for community engagement, and personalized fitness recommendations."
+                    data-image="assets/images/portfolio-3.svg">
+                    <div class="portfolio-thumbnail">
+                        <img src="assets/images/portfolio-3.svg" alt="FitTrack Mobile App — App Design Project"
+                            loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view-btn" aria-label="View FitTrack Mobile App details">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">App Design</span>
+                        <h3 class="portfolio-title">FitTrack Mobile App</h3>
+                        <p class="portfolio-desc">Fitness tracking app with workout plans and progress monitoring.</p>
+                        <button class="portfolio-link" aria-label="View project details">View Project <i
+                                class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="portfolio-card reveal-up" data-category="graphic" data-title="Artisan Brand Identity"
+                    data-description="A complete brand identity system for a creative agency. Includes logo design with multiple variations, curated color palette, typography guidelines, business card and stationery design, social media templates, and comprehensive brand style guide."
+                    data-image="assets/images/portfolio-4.svg">
+                    <div class="portfolio-thumbnail">
+                        <img src="assets/images/portfolio-4.svg" alt="Artisan Brand Identity — Graphic Design Project"
+                            loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view-btn" aria-label="View Artisan Brand Identity details">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Graphic Design</span>
+                        <h3 class="portfolio-title">Artisan Brand Identity</h3>
+                        <p class="portfolio-desc">Complete brand identity with logo, color palette, and style guide.</p>
+                        <button class="portfolio-link" aria-label="View project details">View Project <i
+                                class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 5 -->
+                <div class="portfolio-card reveal-up" data-category="app" data-title="FoodHub Delivery App"
+                    data-description="A food delivery mobile application with a seamless ordering experience. Features restaurant discovery with filters, real-time order tracking with live map, secure payment integration, rating and review system, and personalized food recommendations based on user preferences."
+                    data-image="assets/images/portfolio-5.svg">
+                    <div class="portfolio-thumbnail">
+                        <img src="assets/images/portfolio-5.svg" alt="FoodHub Delivery App — App Design Project"
+                            loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view-btn" aria-label="View FoodHub Delivery App details">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">App Design</span>
+                        <h3 class="portfolio-title">FoodHub Delivery App</h3>
+                        <p class="portfolio-desc">Food delivery app with real-time tracking and restaurant discovery.
+                        </p>
+                        <button class="portfolio-link" aria-label="View project details">View Project <i
+                                class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+                <!-- Project 6 -->
+                <div class="portfolio-card reveal-up" data-category="website" data-title="EduLearn Platform"
+                    data-description="An e-learning platform design with comprehensive course management features. Includes student dashboard with progress tracking, interactive learning modules, video player with notes, assignment submission system, instructor profiles, and certificate generation upon course completion."
+                    data-image="assets/images/portfolio-6.svg">
+                    <div class="portfolio-thumbnail">
+                        <img src="assets/images/portfolio-6.svg" alt="EduLearn Platform — Website Design Project"
+                            loading="lazy">
+                        <div class="portfolio-overlay">
+                            <button class="portfolio-view-btn" aria-label="View EduLearn Platform details">
+                                <i class="fas fa-eye"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="portfolio-info">
+                        <span class="portfolio-category">Website Design</span>
+                        <h3 class="portfolio-title">EduLearn Platform</h3>
+                        <p class="portfolio-desc">E-learning platform with course management and progress tracking.</p>
+                        <button class="portfolio-link" aria-label="View project details">View Project <i
+                                class="fas fa-arrow-right"></i></button>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title text-center reveal-up">Get In Touch</h2>
+            <p class="section-subtitle text-center reveal-up">
+                Have a project in mind or just want to say hello? Feel free to reach out!
+            </p>
+
+            <div class="contact-content">
+                <!-- Contact Info -->
+                <div class="contact-info reveal-left">
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <!-- ✏️ EDIT YOUR EMAIL HERE -->
+                            <p>andika.pratama@email.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-location-dot"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <!-- ✏️ EDIT YOUR LOCATION HERE -->
+                            <p>Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h4>WhatsApp</h4>
+                            <!-- ✏️ EDIT YOUR PHONE HERE -->
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Follow Me</h4>
+                        <div class="contact-social-links">
+                            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer"
+                                aria-label="Dribbble">
+                                <i class="fab fa-dribbble"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp CTA -->
+                    <a href="#" class="btn-whatsapp" id="whatsappBtn">
+                        <i class="fab fa-whatsapp"></i> Chat via WhatsApp
+                    </a>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper reveal-right">
+                    <form class="contact-form" id="contactForm" novalidate>
+                        <div class="form-group">
+                            <label for="formName">Your Name</label>
+                            <input type="text" id="formName" name="name" placeholder="Enter your name" required>
+                            <span class="form-error" id="nameError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="formEmail">Your Email</label>
+                            <input type="email" id="formEmail" name="email" placeholder="Enter your email" required>
+                            <span class="form-error" id="emailError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="formSubject">Subject</label>
+                            <input type="text" id="formSubject" name="subject" placeholder="Enter subject" required>
+                            <span class="form-error" id="subjectError"></span>
+                        </div>
+                        <div class="form-group">
+                            <label for="formMessage">Message</label>
+                            <textarea id="formMessage" name="message" rows="5" placeholder="Write your message…"
+                                required></textarea>
+                            <span class="form-error" id="messageError"></span>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#home" class="nav-logo">
+                        <svg class="logo-icon" width="32" height="32" viewBox="0 0 40 40" fill="none"
+                            xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <rect x="6" y="6" width="28" height="28" rx="7" transform="rotate(45 20 20)"
+                                fill="#4361EE" />
+                            <rect x="11" y="11" width="18" height="18" rx="4" transform="rotate(45 20 20)"
+                                fill="#F72585" />
+                            <circle cx="20" cy="20" r="4" fill="white" />
+                        </svg>
+                        <span class="logo-text">Andika<span class="logo-dot">.</span></span>
+                    </a>
+                    <p class="footer-tagline">Crafting beautiful &amp; intuitive digital experiences.</p>
+                </div>
+
+                <div class="footer-nav">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#about">About Me</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-social">
+                    <h4>Connect</h4>
+                    <div class="footer-social-links">
+                        <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://linkedin.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://dribbble.com/" target="_blank" rel="noopener noreferrer"
+                            aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; <span id="footerYear"></span> Andika Pratama. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== BACK TO TOP ===== -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ===== PORTFOLIO MODAL ===== -->
+    <div class="modal-overlay" id="portfolioModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle" hidden>
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose" aria-label="Close project details">&times;</button>
+            <div class="modal-body">
+                <div class="modal-image-wrapper">
+                    <img src="" alt="" class="modal-image" id="modalImage">
+                </div>
+                <div class="modal-info">
+                    <span class="modal-category" id="modalCategory"></span>
+                    <h3 class="modal-title-text" id="modalTitle"></h3>
+                    <p class="modal-description" id="modalDescription"></p>
+                    <div class="modal-actions">
+                        <a href="#contact" class="btn btn-primary" id="modalLink">
+                            <i class="fas fa-envelope"></i> Discuss Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

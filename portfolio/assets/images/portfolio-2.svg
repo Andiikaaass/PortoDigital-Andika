@@ -1,0 +1,70 @@
+<svg width="600" height="450" viewBox="0 0 600 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="lpBg" x1="0" y1="0" x2="600" y2="450" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FAFCFF"/>
+      <stop offset="100%" stop-color="#EEF2FF"/>
+    </linearGradient>
+    <linearGradient id="heroBannerGrad" x1="0" y1="0" x2="400" y2="180" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#4361EE"/>
+      <stop offset="100%" stop-color="#7209B7"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="450" rx="12" fill="url(#lpBg)"/>
+
+  <!-- Top Navbar -->
+  <rect x="0" y="0" width="600" height="45" rx="12" fill="white"/>
+  <circle cx="35" cy="22" r="10" fill="#4361EE"/>
+  <rect x="55" y="17" width="50" height="8" rx="4" fill="#1A1A2E" opacity="0.6"/>
+  <rect x="360" y="17" width="35" height="8" rx="4" fill="#6C757D" opacity="0.4"/>
+  <rect x="410" y="17" width="35" height="8" rx="4" fill="#6C757D" opacity="0.4"/>
+  <rect x="460" y="17" width="35" height="8" rx="4" fill="#6C757D" opacity="0.4"/>
+  <rect x="515" y="12" width="60" height="22" rx="11" fill="#4361EE"/>
+  <rect x="525" y="18" width="40" height="8" rx="4" fill="white" opacity="0.8"/>
+
+  <!-- Hero Banner -->
+  <rect x="30" y="60" width="540" height="160" rx="12" fill="url(#heroBannerGrad)"/>
+  <rect x="55" y="85" width="140" height="12" rx="6" fill="white" opacity="0.9"/>
+  <rect x="55" y="108" width="200" height="18" rx="6" fill="white" opacity="0.7"/>
+  <rect x="55" y="136" width="250" height="8" rx="4" fill="white" opacity="0.3"/>
+  <rect x="55" y="152" width="200" height="8" rx="4" fill="white" opacity="0.3"/>
+  <rect x="55" y="178" width="80" height="28" rx="14" fill="white" opacity="0.9"/>
+  <rect x="145" y="178" width="80" height="28" rx="14" fill="transparent" stroke="white" stroke-width="2" opacity="0.6"/>
+
+  <!-- Image placeholder in hero -->
+  <rect x="420" y="80" width="130" height="120" rx="8" fill="white" opacity="0.15"/>
+  <circle cx="485" cy="120" r="25" fill="white" opacity="0.2"/>
+  <rect x="450" y="155" width="70" height="6" rx="3" fill="white" opacity="0.2"/>
+
+  <!-- Destinations Section Title -->
+  <rect x="220" y="240" width="160" height="12" rx="6" fill="#1A1A2E" opacity="0.6"/>
+  <rect x="180" y="260" width="240" height="8" rx="4" fill="#6C757D" opacity="0.3"/>
+
+  <!-- Destination Cards -->
+  <rect x="30" y="285" width="170" height="140" rx="10" fill="white"/>
+  <rect x="30" y="285" width="170" height="80" rx="10" fill="#4CC9F0" opacity="0.2"/>
+  <rect x="30" y="355" width="170" height="10" rx="0" fill="white"/>
+  <rect x="45" y="375" width="100" height="8" rx="4" fill="#1A1A2E" opacity="0.5"/>
+  <rect x="45" y="392" width="70" height="6" rx="3" fill="#6C757D" opacity="0.3"/>
+  <rect x="45" y="405" width="50" height="6" rx="3" fill="#4361EE" opacity="0.5"/>
+
+  <rect x="215" y="285" width="170" height="140" rx="10" fill="white"/>
+  <rect x="215" y="285" width="170" height="80" rx="10" fill="#F72585" opacity="0.15"/>
+  <rect x="215" y="355" width="170" height="10" rx="0" fill="white"/>
+  <rect x="230" y="375" width="100" height="8" rx="4" fill="#1A1A2E" opacity="0.5"/>
+  <rect x="230" y="392" width="70" height="6" rx="3" fill="#6C757D" opacity="0.3"/>
+  <rect x="230" y="405" width="50" height="6" rx="3" fill="#4361EE" opacity="0.5"/>
+
+  <rect x="400" y="285" width="170" height="140" rx="10" fill="white"/>
+  <rect x="400" y="285" width="170" height="80" rx="10" fill="#FFD166" opacity="0.2"/>
+  <rect x="400" y="355" width="170" height="10" rx="0" fill="white"/>
+  <rect x="415" y="375" width="100" height="8" rx="4" fill="#1A1A2E" opacity="0.5"/>
+  <rect x="415" y="392" width="70" height="6" rx="3" fill="#6C757D" opacity="0.3"/>
+  <rect x="415" y="405" width="50" height="6" rx="3" fill="#4361EE" opacity="0.5"/>
+
+  <!-- Shadow for cards -->
+  <rect x="30" y="285" width="170" height="140" rx="10" fill="none" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="215" y="285" width="170" height="140" rx="10" fill="none" stroke="#E0E0E0" stroke-width="1"/>
+  <rect x="400" y="285" width="170" height="140" rx="10" fill="none" stroke="#E0E0E0" stroke-width="1"/>
+</svg>
